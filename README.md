@@ -1,4 +1,2 @@
 # Quizzy
-sussy bakka
-furry porn
-test
+no php allowd :( *cry noise* uwu
