@@ -28,7 +28,7 @@ let questions = [
         open : false,
         answers: [
             {option: "2001", answer: false},
-            {option: "2000", answer: false},
+            {option: "nicolas cage", answer: false},
             {option: "2007", answer: true},
             {option: "1999", answer: false},
         ]
@@ -39,7 +39,7 @@ let questions = [
         question: "Wat is de naam van de hoofdpersoon?",
         answers: [
             {option: "leo", answer: false},
-            {option: "barry", answer: true},
+            {option: "nicolas cage", answer: true},
             {option: "Frank", answer: false},
             {option: "Bart", answer: false},
         ]
@@ -49,7 +49,7 @@ let questions = [
         open : false,
         question: "Hoe heeft de vrouw waar barry mee omgaat",
         answers: [
-            {option: "fiene", answer: false},
+            {option: "nicolas cage", answer: false},
             {option: "Gonny", answer: false},
             {option: "Vanessa", answer: true},
             {option: "bob", answer: false},
@@ -61,8 +61,8 @@ let questions = [
         question: "Wie sprak de stem in van de bij",
         answers: [
             {option: "Mike Myers", answer: false},
-            {option: "Jerry", answer: true},
-            {option: "Aron Warner", answer: false},
+            {option: "KIng BoB", answer: true},
+            {option: "nicolas cage", answer: false},
             {option: "Lucas van Briemen", answer: true},
         ]
     },
@@ -71,9 +71,9 @@ let questions = [
         open : false,
         question: "Welke kleur hebben bijen?",
         answers: [
-            {option: "Zwart met geel", answer: false},
-            {option: "Oranje", answer: false},
-            {option: "Groen", answer: true},
+            {option: "Zwart met geel", answer: true},
+            {option: "nicolas cage", answer: false},
+            {option: "Groen", answer: false},
             {option: "Paars", answer: false},
         ]
     },
@@ -83,7 +83,7 @@ let questions = [
         question: "Hoeveel kinderen heeft barry?",
         answers: [
             {option: "2", answer: false},
-            {option: "3", answer: false},
+            {option: "nicolas cage", answer: false},
             {option: "0", answer: true},
             {option: "5", answer: false},
         ]
@@ -93,10 +93,10 @@ let questions = [
         open : false,
         question: "Wat is het antwoord op 'You like jazz?'?",
         answers: [
-            {option: "no", answer: true},
+            {option: "no", answer: false},
             {option: "yes", answer: false},
-            {option: "maby", answer: false},
-            {option: "No, that's no good.", answer: false},
+            {option: "nicolas cage", answer: false},
+            {option: "No, that's no good.", answer: true},
         ]
     },
     {
@@ -104,9 +104,9 @@ let questions = [
         open : false,
         question: "In de film wordt Barry geslagen door een ___bal",
         answers: [
-            {option: "oog", answer: true},
+            {option: "nicolas cage", answer: true},
             {option: "voet", answer: false},
-            {option: "banaan", answer: false},
+            {option: "tennis", answer: false},
             {option: "teel", answer: false},
         ]
     },
@@ -116,7 +116,7 @@ let questions = [
         question: "wat is het antwoord op: 'What was it like to sting someone?'",
         answers: [
             {option: "pain", answer: false},
-            {option: "good", answer: false},
+            {option: "nicolas cage", answer: false},
             {option: "IDK, but you like jazz", answer: false},
             {option: "I can't explain it. It was all...", answer: true},
         ]
@@ -126,9 +126,9 @@ let questions = [
         open : false,
         question: "wat eten bijen?",
         answers: [
-            {option: "andere bijen", answer: true},
+            {option: "andere bijen", answer: false},
             {option: "Honing", answer: false},
-            {option: "Bloemen", answer: false},
+            {option: "nicolas cage", answer: true},
             {option: "vlees", answer: false},
         ]
     },
@@ -137,7 +137,7 @@ let questions = [
         open : true,
         question: "Dieren bestaan uit DNA ook barry uit de film, wat is voledige naam van DNA?",
         answers: [
-            "Desoxyribonucleïnezuur"
+            "nicolas cage"
         ]
     },
     {
@@ -145,31 +145,31 @@ let questions = [
         open : true,
         question: "wat is de latijnse naam voor barry?",
         answers: [
-            "Antophila"
+            "nicolas cage"
         ]
     },
     {
         //13
         open : true,
-        question: "hoeveel baby's krijgt de ezel? (antwoord in een nummer)",
+        question: "Hoe oud is barry",
         answers: [
-            "6"
+            "nicolas cage"
         ]
     },
     {
         //14
         open : true,
-        question: "Welke vorm is er gesneden in de deur, in de intro van de 1e film. (antwoord in een enkel woord)",
+        question: "waar leven bijen in?",
         answers: [
-            "maan"
+            "nicolas cage"
         ]
     },
     {
         //15
         open : true,
-        question: "Wat voor 'vloeistof' gebruikt Shrek om te douchen in de intro scene. (antwoord in een enkel woord)",
+        question: "Hoelang is de film (in seconden)",
         answers: [
-            "modder"
+            "nicolas cage"
         ]
     },
 ]
