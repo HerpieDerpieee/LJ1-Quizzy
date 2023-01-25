@@ -87,9 +87,9 @@ body {
     font-size:xx-large;
     text-align: center;
     border-radius: 3em;
-    background-color: #c4ee7d7b !important;
+    background-color: var(--button_color) !important;
     color: var(--button_text_color);
-    border: 3px solid #c4ee7dc0;
+    border: 3px solid var(--button_shadow);
 }
  
 .controls {
