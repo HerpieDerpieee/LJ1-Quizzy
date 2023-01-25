@@ -17,6 +17,7 @@ let openHTML = `
 <input type="text" id="txtInput" placeholder="Placeholder">
 `
 
+
 let currentQuestion = 0;
 let score = 0;
 

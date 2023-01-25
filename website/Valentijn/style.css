@@ -45,7 +45,7 @@ body {
     border: 10px solid var(--border_color);
     border-radius: 5em;
 }
-
+/**/
 .score {
     font-size: large;
     font-weight: bold;
