@@ -23,7 +23,7 @@ let score = 0;
 
 let questions = [
    {
-        question: "In welk jaar is de 1e shrek film uitgekomen? (in nederland)",
+        question: "In welk jaar is de 1e Shrek film uitgekomen? (in nederland)",
         open : false,
         answers: [
             {option: "2001", answer: true},
@@ -34,7 +34,7 @@ let questions = [
    },
    {
         open : false,
-        question: "Hoeveel shrek films zijn er?",
+        question: "Hoeveel Shrek films zijn er?",
         answers: [
             {option: "3", answer: false},
             {option: "4", answer: true},
@@ -45,7 +45,7 @@ let questions = [
    {
 
         open : false,
-        question: "Hoe heeft de 'vrouw' waar shrek mee trouwt?",
+        question: "Hoe heeft de 'vrouw' waar Shrek mee trouwt?",
         answers: [
             {option: "fiene", answer: false},
             {option: "sheniqua", answer: false},
@@ -69,7 +69,7 @@ let questions = [
         open : false,
         question: "Welke kleur is de huid van Shrek?",
         answers: [
-            {option: "Zwart", answer: false},
+            {option: "Rood", answer: false},
             {option: "Oranje", answer: false},
             {option: "Groen", answer: true},
             {option: "Blauw", answer: false},
@@ -100,53 +100,53 @@ let questions = [
     {
 
         open : false,
-        question: "Aan het begin van de film doet Shrek een ___ in zijn driken",
+        question: "Aan het begin van de film doet Shrek een ___ in zijn drinken",
         answers: [
-            {option: "oogbal", answer: true},
-            {option: "ijsklontje", answer: false},
-            {option: "banaan", answer: false},
-            {option: "pluk haren", answer: false},
+            {option: "Oogbal", answer: true},
+            {option: "Ijsklontje", answer: false},
+            {option: "Banaan", answer: false},
+            {option: "Pluk Haren", answer: false},
         ]
     },
     {
 
         open : false,
-        question: "De prices zat opgeslote in een toren, bewaakt door een ____?",
+        question: "De princes zat opgeslote in een toren, bewaakt door een ____?",
         answers: [
             {option: "een Grote Boze Reus", answer: false},
             {option: "een Zombieleger", answer: false},
             {option: "Boze Lucas", answer: false},
-            {option:  "een Vuurspuwende Draak", answer: true},
+            {option: "een Vuurspuwende Draak", answer: true},
         ]
     },
     {
 
         open : false,
-        question: "Waar woont shrek",
+        question: "Waar woont Shrek",
         answers: [
-            {option: "Moeras", answer: true},
-            {option: "Woestijn", answer: false},
-            {option: "Bloemenveld", answer: false},
-            {option: "Een achtertuin", answer: false},
+            {option: "Een Moeras", answer: true},
+            {option: "Een Woestijn", answer: false},
+            {option: "Een Bloemenveld", answer: false},
+            {option: "Een Achtertuin", answer: false},
         ]
     },
     {
         open : true,
-        question: "Wat is de volledige naam van de bank, die het 1e liedje heeft gespeeld?",
+        question: "Wat is de volledige naam van de band, die het het intro nummer van Shrek 1 heeft gespeeld?",
         answers: [
             "smash mouth"
         ]
     },
     {
         open : true,
-        question: "wat voor 'dier' is shrek? (antwoord in de englese term)",
+        question: "wat voor 'dier' is Shrek? (antwoord in de englese term)",
         answers: [
             "ogre"
         ]
     },
     {
         open : true,
-        question: "hoeveel baby's krijgt de ezel? (antwoord in een nummer)",
+        question: "hoeveel kinderen krijgt de ezel? (antwoord in een nummer)",
         answers: [
             "6"
         ]
