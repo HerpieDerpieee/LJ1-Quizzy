@@ -5,6 +5,8 @@ let Btn2;
 let Btn3;
 let Btn4;
 let txtInput;
+
+let openTrue = false;
 const questionText = document.getElementById("question-text");
 
 let multHTML = `
@@ -257,6 +259,10 @@ function beginQuiz() {
  }
 
  function next() {
+    if(openTrue) {
+        score++;
+    }
+    openTrue = false;
     currentQuestion++;
     if (questions[currentQuestion].open){
         document.getElementById("options").dataset.type = "open"
@@ -268,7 +274,10 @@ function beginQuiz() {
             console.log("changed");
             if (txtInput.value.toLowerCase().includes(questions[currentQuestion].answers[0])){
                 console.log("Kaas")
-                score++;
+                openTrue = true;
+            }
+            else {
+                openTrue = false;
             }
         });
         return;
