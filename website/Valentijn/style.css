@@ -7,7 +7,6 @@
     --button_text_color: #000000;
     --background: linear-gradient(to bottom, #150050, #1f0a58);
     --container_background: linear-gradient(to top, #c5ee7d, #8cb04e,#7a9244, #7a9244 );
-    --page_height: 125vh;
 }
 
 
@@ -23,11 +22,13 @@
 body {
     background: var(--background);
     background-repeat: no-repeat;
-    height: 100vh;
     width: 100vw;
+    height: 115vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .container {
@@ -44,6 +45,7 @@ body {
     text-align: center;
     border: 10px solid var(--border_color);
     border-radius: 5em;
+    margin-top: 16vh;
 }
 /**/
 .score {

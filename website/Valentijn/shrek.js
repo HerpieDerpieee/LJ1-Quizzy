@@ -47,10 +47,10 @@ let questions = [
         open : false,
         question: "Hoe heeft de 'vrouw' waar Shrek mee trouwt?",
         answers: [
-            {option: "fiene", answer: false},
-            {option: "sheniqua", answer: false},
-            {option: "fiona", answer: true},
-            {option: "bob", answer: false},
+            {option: "Fiene", answer: false},
+            {option: "Sheniqua", answer: false},
+            {option: "Fiona", answer: true},
+            {option: "Bob", answer: false},
         ]
    },
    {
