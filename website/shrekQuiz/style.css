@@ -1,0 +1,124 @@
+:root {
+    --selected_color: #6c8139;
+    --submit_color: #688437;
+    --button_color: #8cb04e;
+    --border_color: #5c452d;
+    --button_shadow: #58692f;
+    --button_text_color: #000000;
+    --background: linear-gradient(to bottom, #150050, #1f0a58);
+    --container_background: linear-gradient(to top, #c5ee7d, #8cb04e,#7a9244, #7a9244 );
+    --page_height: 125vh;
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--background);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90vw;
+    margin-left: 7.5vw;
+    max-width: 80%;
+    background: var(--container_background);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+    border: 10px solid var(--border_color);
+    border-radius: 5em;
+}
+
+.score {
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn {
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0 6px 12px -2px rgba(var(--button_shadow), .15);
+    background: var(--button_color);
+    border-radius: 4px;
+    padding: 10px;
+    color: var(--button_text_color);
+    margin: 6px;
+    cursor: pointer;
+    border: 10px solid var(--button_shadow);
+    border-radius: 5ch;
+ }
+
+#options {
+    position: relative;
+    left: 10%;
+    padding: 10px;
+    order: 3;
+    color: var(--button_text_color);
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+#options input{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: black !important;
+    width: 100%;
+    height: 150%;
+    font-size:xx-large;
+    text-align: center;
+    border-radius: 3em;
+    background-color: gray !important;
+    color: var(--button_text_color);
+    border: 3px solid gray;
+}
+ 
+.controls {
+    padding: 10px;
+    order: 4;
+}
+
+
+.hide {
+    display: none;
+}
+
+#question-text {
+    font-size: 5vh;
+    color: var(--button_text_color);
+}
+.btn-option {
+    width: 95%;
+    height: 12vh;
+    font-size: 23px;
+    justify-self: center;
+    text-align: center;
+    text-align: center;
+    display:table-cell;
+    vertical-align:middle;
+}
+.btn-restart, .btn-next {
+    width: 13vw;
+    height: 8vh;
+    background-color: var(--submit_color) !important;
+}
+
+
+#txtInput {
+    color: black;
+}
