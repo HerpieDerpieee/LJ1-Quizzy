@@ -25,7 +25,7 @@ let score = 0;
 
 let questions = [
    {
-        question: "In welk jaar is de 1e Shrek film uitgekomen? (in nederland)",
+        question: "In welk jaar is de 1e Shrek film uitgekomen? (in Nederland)",
         open : false,
         answers: [
             {option: "2001", answer: true},
@@ -91,7 +91,7 @@ let questions = [
     {
 
         open : false,
-        question: "Wanner speelt 'Shrek 2' zich af vergelekem met 'Shrek'?",
+        question: "Wanneer speelt 'Shrek 2' zich af vergelekem met 'Shrek'?",
         answers: [
             {option: "Recht erna", answer: true},
             {option: "2 maanden later", answer: false},
@@ -113,7 +113,7 @@ let questions = [
     {
 
         open : false,
-        question: "De princes zat opgeslote in een toren, bewaakt door een ____?",
+        question: "De prinses zat opgeslote in een toren, bewaakt door een ____?",
         answers: [
             {option: "een Grote Boze Reus", answer: false},
             {option: "een Zombieleger", answer: false},
