@@ -1,12 +1,12 @@
 :root {
-    --selected_color: #6c8139;
-    --submit_color: #688437;
-    --button_color: #8cb04e;
-    --border_color: #5c452d;
-    --button_shadow: #58692f;
+    --selected_color: #9ED8F0;
+    --submit_color: #94C6E3;
+    --button_color: #D4F1F9;
+    --border_color: #ffffff;
+    --button_shadow: #75AEDC;
     --button_text_color: #000000;
     --background: linear-gradient(to bottom, #150050, #1f0a58);
-    --container_background: linear-gradient(to top, #c4ee7d8a, #8cb04e8a,#7a92448a, #7a92448a ),url("../img/shrekBG.jpg");
+    --container_background: linear-gradient(to top, #D4F1F98a, #9ED8F08a,#94C6E38a, #75AEDC8a ),url("../img/iceage.png");
     --title_color: #ffffff;
 }
 

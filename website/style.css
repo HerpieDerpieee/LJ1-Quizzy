@@ -1,4 +1,5 @@
 
+
 body{
     overflow-x: hidden;
 }
@@ -7,7 +8,10 @@ nav{
     display: flex;
     justify-content: space-around;
     background-color: #3a066c;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -35,6 +39,7 @@ nav{
     width: 100vw;
     background-color: #3a066c;
     bottom: 0;
+    margin-bottom: -15vh;
 }
 #footer .right {
     display: flex;

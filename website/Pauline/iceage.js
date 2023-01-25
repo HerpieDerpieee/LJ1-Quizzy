@@ -25,146 +25,138 @@ let score = 0;
 
 let questions = [
    {
-        question: "In welk jaar is de 1e Shrek film uitgekomen? (in nederland)",
+        question: "Placeholder Question",
         open : false,
         answers: [
-            {option: "2001", answer: true},
-            {option: "2000", answer: false},
-            {option: "2006", answer: false},
-            {option: "1999", answer: false},
-        ]
-   },
-   {
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false}
+            ]
+    },
+    {
+        question: "Placeholder Question",
         open : false,
-        question: "Hoeveel Shrek films zijn er?",
         answers: [
-            {option: "3", answer: false},
-            {option: "4", answer: true},
-            {option: "5", answer: false},
-            {option: "20", answer: false},
-        ]
-   },
-   {
-
-        open : false,
-        question: "Hoe heeft de 'vrouw' waar Shrek mee trouwt?",
-        answers: [
-            {option: "Fiene", answer: false},
-            {option: "Sheniqua", answer: false},
-            {option: "Fiona", answer: true},
-            {option: "Bob", answer: false},
-        ]
-   },
-   {
-
-        open : false,
-        question: "Wie sprak de stem in van de ezel",
-        answers: [
-            {option: "Mike Myers", answer: false},
-            {option: "Eddie Murphy", answer: true},
-            {option: "Aron Warner", answer: false},
-            {option: "Lucas van Briemen", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false}
         ]
     },
     {
-
+        question: "Placeholder Question",
         open : false,
-        question: "Welke kleur is de huid van Shrek?",
         answers: [
-            {option: "Rood", answer: false},
-            {option: "Oranje", answer: false},
-            {option: "Groen", answer: true},
-            {option: "Blauw", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false}
         ]
     },
     {
-
+        question: "Placeholder Question",
         open : false,
-        question: "Hoeveel kinderen heeft Shrek",
         answers: [
-            {option: "2", answer: false},
-            {option: "3", answer: true},
-            {option: "0", answer: false},
-            {option: "5", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false}
         ]
     },
     {
-
+        question: "Placeholder Question",
         open : false,
-        question: "Wanner speelt 'Shrek 2' zich af vergelekem met 'Shrek'?",
         answers: [
-            {option: "Recht erna", answer: true},
-            {option: "2 maanden later", answer: false},
-            {option: "5 jaar later", answer: false},
-            {option: "4 maanden later", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false}
         ]
     },
     {
-
+        question: "Placeholder Question",
         open : false,
-        question: "Aan het begin van de film doet Shrek een ___ in zijn drinken",
         answers: [
-            {option: "Oogbal", answer: true},
-            {option: "Ijsklontje", answer: false},
-            {option: "Banaan", answer: false},
-            {option: "Pluk Haren", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false}
         ]
     },
     {
-
+        question: "Placeholder Question",
         open : false,
-        question: "De princes zat opgeslote in een toren, bewaakt door een ____?",
         answers: [
-            {option: "een Grote Boze Reus", answer: false},
-            {option: "een Zombieleger", answer: false},
-            {option: "Boze Lucas", answer: false},
-            {option: "een Vuurspuwende Draak", answer: true},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false}
         ]
     },
     {
-
+        question: "Placeholder Question",
         open : false,
-        question: "Waar woont Shrek",
         answers: [
-            {option: "Een Moeras", answer: true},
-            {option: "Een Woestijn", answer: false},
-            {option: "Een Bloemenveld", answer: false},
-            {option: "Een Achtertuin", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false}
+        ]
+    },
+    {
+        question: "Placeholder Question",
+        open : false,
+        answers: [
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false}
+        ]
+    },
+    {
+        question: "Placeholder Question",
+        open : false,
+        answers: [
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false},
+            {option: "Placeholder Answer", answer: false}
         ]
     },
     {
         open : true,
-        question: "Wat is de volledige naam van de band, die het het intro nummer van Shrek 1 heeft gespeeld?",
+        question: "Placeholder Question",
         answers: [
-            "smash mouth"
+            "Placeholder Answer",
         ]
     },
     {
         open : true,
-        question: "wat voor 'dier' is Shrek? (antwoord in de englese term)",
+        question: "Placeholder Question",
         answers: [
-            "ogre"
+            "Placeholder Answer",
         ]
     },
     {
         open : true,
-        question: "hoeveel kinderen krijgt de ezel? (antwoord in een nummer)",
+        question: "Placeholder Question",
         answers: [
-            "6"
+            "Placeholder Answer",
         ]
     },
     {
         open : true,
-        question: "Welke vorm is er gesneden in de deur, in de intro van de 1e film. (antwoord in een enkel woord)",
+        question: "Placeholder Question",
         answers: [
-            "maan"
+            "Placeholder Answer",
         ]
     },
     {
         open : true,
-        question: "Wat voor 'vloeistof' gebruikt Shrek om te douchen in de intro scene. (antwoord in een enkel woord)",
+        question: "Placeholder Question",
         answers: [
-            "modder"
+            "Placeholder Answer",
         ]
     },
 ]
