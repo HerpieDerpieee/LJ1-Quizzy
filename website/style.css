@@ -1,5 +1,9 @@
 body{
     overflow-x: hidden;
+    background: linear-gradient(to top, #7118c38d, #4a0a868d,#3f0d6f8d, #3a066c8d ),url("img/homeBg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*------------------*/
 
@@ -69,9 +73,8 @@ nav{
     justify-content: space-between;
     height: 20vh;
     width: 100vw;
-    background-color: #3a066c;
+    background-color: #3a066c8d;
     bottom: 0;
-    margin-bottom: -15vh;
 }
 #footer .right {
     display: flex;
@@ -122,3 +125,52 @@ nav{
     width: auto;
     height: 100%;
 }
+/* --------------------- */
+
+#quizzes {
+    display: grid;
+    margin-top: 10vh;
+    width: fit-content;
+    grid-template-columns: 30vw 30vw;
+    grid-template-rows: 27vh 27vh;
+    column-gap: 5vw;
+    row-gap: 2vh;
+}
+#quizzes div {
+    background-color: red;
+    border-radius: 2em;
+    font-size: xx-large;
+    color: black !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.quiz1{
+    background-image: linear-gradient(to top, #c4ee7d, #8cb04e,#7a9244, #7a9244 ); 
+    transition: all 0.9s ease-in-out;
+}
+.quiz2{
+    background-image: linear-gradient(to top, #d9dc33, #b9bc27,#939517, #5a5c09 ); 
+    transition: all 0.9s ease-in-out;
+
+}
+.quiz3{
+    background-image: linear-gradient(to top, #D4F1F9, #9ED8F0,#94C6E3, #75AEDC ); 
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 30vw;
+    margin-left: 17.5vw;
+    transition: all 0.9s ease-in-out;
+
+}
+
+
+.quiz1:hover {background-image: linear-gradient(to top, #c4ee7d8a, #8cb04e8a,#7a92448a, #7a92448a ),url("img/shrekBG.jpg"); background-position: center; background-size: cover;}
+.quiz2:hover {background-image: linear-gradient(to top, #d9dc338a, #b9bc278a,#9395178a, #5a5c098a ), url("img/comb.jpg"); background-position: center; background-size: cover;}
+.quiz3:hover {background-image: linear-gradient(to top, #D4F1F98a, #9ED8F08a,#94C6E38a, #75AEDC8a ), url("img/iceage.png"); background-position: center; background-size: cover;}

@@ -6,7 +6,7 @@
     --button_shadow: #58692f;
     --button_text_color: #000000;
     --background: linear-gradient(to bottom, #150050, #1f0a58);
-    --container_background:  linear-gradient(to top, #ecee7d8a, #99b04e8a,#9285448a, #8e92448a ),url("img/bee\ movie.avif");
+    --container_background: linear-gradient(to top, #d9dc338d, #b9bc278d,#9395178d, #5a5c098d );
     --page_height: 125vh;
 }
 
