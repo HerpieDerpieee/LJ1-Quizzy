@@ -1,5 +1,3 @@
-
-
 body{
     overflow-x: hidden;
 }
@@ -23,6 +21,9 @@ nav{
     background-color: #9601ca7a;
     border: none;
     transition: all .3s ease-in-out;
+
+    border: 5px solid #9601ca7a;
+    border-radius: 0.9vh;
 }
 
 
