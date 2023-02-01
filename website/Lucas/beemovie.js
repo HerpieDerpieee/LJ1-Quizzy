@@ -16,7 +16,7 @@ let multHTML = `
 let openHTML = `
 <input type="text" id="txtInput" placeholder="Placeholder">
 `
-
+let selected = false;
 
 let currentQuestion = 0;
 let score = 0;
@@ -200,6 +200,7 @@ function beginQuiz() {
     Btn2.innerHTML = questions[currentQuestion].answers[1].option;
     Btn3.innerHTML = questions[currentQuestion].answers[2].option;
     Btn4.innerHTML = questions[currentQuestion].answers[3].option;
+    
     Btn1.onclick = () => {
         Btn1.style.backgroundColor = "var(--selected_color)";
         Btn2.style.backgroundColor = "var(--button_color)";
@@ -210,6 +211,8 @@ function beginQuiz() {
                 score++;
             }
         }
+        selected = true;
+        console.log(selected);
     }
     Btn2.onclick = () => {
         Btn1.style.backgroundColor = "var(--button_color)";
@@ -221,6 +224,8 @@ function beginQuiz() {
                 score++;
             }
         }
+        selected = true;
+        console.log(selected);
     }
 
     Btn3.onclick = () => {
@@ -233,6 +238,8 @@ function beginQuiz() {
                 score++;
             }
         }
+        selected = true;
+        console.log(selected);
     }
 
     Btn4.onclick = () => {
@@ -245,6 +252,8 @@ function beginQuiz() {
                 score++;
             }
         }
+        selected = true;
+        console.log(selected);
     }
  }
  
@@ -263,102 +272,114 @@ function beginQuiz() {
     beginQuiz();
  }
 
+ let openTrue = false;
+
  function next() {
-    currentQuestion++;
-    if (questions[currentQuestion].open){
-        document.getElementById("options").dataset.type = "open"
-        document.getElementById("options").innerHTML = openHTML;
-        txtInput = document.getElementById('txtInput');
-        txtInput.style.color = "var(--button_text_color)"
+    console.log(selected);
+    if(selected = true) {
+        selected = false;
+        console.log(selected);
+        if(openTrue) {
+            score++;
+        }
+        openTrue = false;
+        currentQuestion++;
+        if (questions[currentQuestion].open){
+            document.getElementById("options").dataset.type = "open"
+            document.getElementById("options").innerHTML = openHTML;
+            txtInput = document.getElementById('txtInput');
+            txtInput.style.color = "var(--button_text_color)"
+            questionText.innerHTML = questions[currentQuestion].question;
+            document.getElementById("txtInput").addEventListener('change', function() {
+                console.log("changed");
+                if (txtInput.value.toLowerCase().includes(questions[currentQuestion].answers[0])){
+                    openTrue = true;
+                }
+                else {
+                    openTrue = false;
+                }
+            });
+            return;
+        }
+        Btn1.style.backgroundColor = "var(--button_color)";
+        Btn2.style.backgroundColor = "var(--button_color)";
+        Btn3.style.backgroundColor = "var(--button_color)";
+        Btn4.style.backgroundColor = "var(--button_color)";
+
+        if(currentQuestion >= questions.length - 1) {
+            nextBtn.classList.remove("hide");
+        }
         questionText.innerHTML = questions[currentQuestion].question;
-        document.getElementById("txtInput").addEventListener('change', function() {
-            console.log("changed");
-            if (txtInput.value.toLowerCase().includes(questions[currentQuestion].answers[0])){
-                console.log("Kaas")
-                score++;
+        Btn1.innerHTML = questions[currentQuestion].answers[0].option;
+        Btn1.onclick = () => {
+            Btn1.style.backgroundColor = "var(--selected_color)";
+            Btn2.style.backgroundColor = "var(--button_color)";
+            Btn3.style.backgroundColor = "var(--button_color)";
+            Btn4.style.backgroundColor = "var(--button_color)";
+            if(questions[currentQuestion].answers[0].answer) {
+                if(score < questions.length) {
+                    score++;
+                }
             }
-        });
-        return;
-    }
-    Btn1.style.backgroundColor = "var(--button_color)";
-    Btn2.style.backgroundColor = "var(--button_color)";
-    Btn3.style.backgroundColor = "var(--button_color)";
-    Btn4.style.backgroundColor = "var(--button_color)";
+        }
+    
+        Btn2.innerHTML = questions[currentQuestion].answers[1].option;
+        Btn2.onclick = () => {
+            Btn1.style.backgroundColor = "var(--button_color)";
+            Btn2.style.backgroundColor = "var(--selected_color)";
+            Btn3.style.backgroundColor = "var(--button_color)";
+            Btn4.style.backgroundColor = "var(--button_color)";
+            if(questions[currentQuestion].answers[1].answer) {
+                if(score < questions.length) {
+                    score++;
+                }
+    
+            }
+        }
+        Btn3.innerHTML = questions[currentQuestion].answers[2].option;
+        Btn3.onclick = () => {
+            Btn1.style.backgroundColor = "var(--button_color)";
+            Btn2.style.backgroundColor = "var(--button_color)";
+            Btn3.style.backgroundColor = "var(--selected_color)";
+            Btn4.style.backgroundColor = "var(--button_color)";
+            if(questions[currentQuestion].answers[2].answer) {
+                if(score < questions.length) {
+                    score++;
+                }
+    
+            }
+        }
 
-    if(currentQuestion >= questions.length - 1) {
-        nextBtn.classList.remove("hide");
-    }
-    questionText.innerHTML = questions[currentQuestion].question;
-    Btn1.innerHTML = questions[currentQuestion].answers[0].option;
-    Btn1.onclick = () => {
-        Btn1.style.backgroundColor = "var(--selected_color)";
-        Btn2.style.backgroundColor = "var(--button_color)";
-        Btn3.style.backgroundColor = "var(--button_color)";
-        Btn4.style.backgroundColor = "var(--button_color)";
-        if(questions[currentQuestion].answers[0].answer) {
-            if(score < questions.length) {
-                score++;
+        Btn4.innerHTML = questions[currentQuestion].answers[3].option;
+        Btn4.onclick = () => {
+            Btn1.style.backgroundColor = "var(--button_color)";
+            Btn2.style.backgroundColor = "var(--button_color)";
+            Btn3.style.backgroundColor = "var(--button_color)";
+            Btn4.style.backgroundColor = "var(--selected_color)";
+            if(questions[currentQuestion].answers[3].answer) {
+                if(score < questions.length) {
+                    score++;
+                }
+    
             }
         }
     }
- 
-    Btn2.innerHTML = questions[currentQuestion].answers[1].option;
-    Btn2.onclick = () => {
-        Btn1.style.backgroundColor = "var(--button_color)";
-        Btn2.style.backgroundColor = "var(--selected_color)";
-        Btn3.style.backgroundColor = "var(--button_color)";
-        Btn4.style.backgroundColor = "var(--button_color)";
-        if(questions[currentQuestion].answers[1].answer) {
-            if(score < questions.length) {
-                score++;
-            }
- 
-        }
+}
+
+
+
+
+
+    function submit() {
+        nextBtn.classList.add("hide");
+        Btn1.classList.add("hide");
+        Btn2.classList.add("hide");   
+        Btn3.classList.add("hide");
+        Btn4.classList.add("hide");   
+        txtInput.classList.add("hide");   
+
+        questionText.innerHTML ="Congratulations on submitting the Quiz! <br>"
+        questionText.innerHTML += `Your score is ${score} / ${questions.length}`
     }
-    Btn3.innerHTML = questions[currentQuestion].answers[2].option;
-    Btn3.onclick = () => {
-        Btn1.style.backgroundColor = "var(--button_color)";
-        Btn2.style.backgroundColor = "var(--button_color)";
-        Btn3.style.backgroundColor = "var(--selected_color)";
-        Btn4.style.backgroundColor = "var(--button_color)";
-        if(questions[currentQuestion].answers[2].answer) {
-            if(score < questions.length) {
-                score++;
-            }
- 
-        }
-    }
-
-    Btn4.innerHTML = questions[currentQuestion].answers[3].option;
-    Btn4.onclick = () => {
-        Btn1.style.backgroundColor = "var(--button_color)";
-        Btn2.style.backgroundColor = "var(--button_color)";
-        Btn3.style.backgroundColor = "var(--button_color)";
-        Btn4.style.backgroundColor = "var(--selected_color)";
-        if(questions[currentQuestion].answers[3].answer) {
-            if(score < questions.length) {
-                score++;
-            }
- 
-        }
-    }
- 
- }
-
-
- function submit() {
-    nextBtn.classList.add("hide");
-    Btn1.classList.add("hide");
-    Btn2.classList.add("hide");   
-    Btn3.classList.add("hide");
-    Btn4.classList.add("hide");   
-    txtInput.classList.add("hide");   
-
-    questionText.innerHTML ="Congratulations on submitting the Quiz! <br>"
-    questionText.innerHTML += `Your score is ${score} / ${questions.length}`
- }
-
-
-
 
 

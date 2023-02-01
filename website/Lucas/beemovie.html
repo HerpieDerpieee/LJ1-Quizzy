@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quizzy | Bee Movie</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../style.css">
+    <title>Quizzy | Over Beemovie</title>
 </head>
-<body>
+<body style="height: 100vh !important;">
     <nav>
         <button onclick="document.location.href = '../'" class=" home quizBTN">Home</button>
         <button onclick="document.location.href = '../Valentijn/'" class=" shrek quizBTN">Shrek</button>
         <button onclick="document.location.href = '../Pauline/'" class=" ice quizBTN">Ice Age</button>
-        <button onclick="document.location.href = 'beemovie.html'" class=" bee quizBTN">Over Bee Movie</button>
+        <button onclick="document.location.href = './'" class=" bee quizBTN">Bee Movie Quiz</button>
     </nav>
     <main>
-        <div class="container">
-            <div class="content" id="question-area">
-                <div id="question-text"></div>
-                <div id="options" data-type="closed">
-                </div>
-            </div>
-            <div class="controls">
-                <button class="btn btn-restart" id="restart">Restart</button>
-                <button class="btn btn-next" id="next">Next</button>
-            </div>
-        </div>
-    </main> 
+
+        <span id="story">
+            Om de buitenwereld te zien, sluit Benson zich aan bij een groep die buiten de korf nectar verzamelt. Hij heeft rondvliegend de tijd van zijn leven, maar belandt door een ongelukkig toeval in het huis van de mens Vanessa Bloome (Renée Zellweger). Haar vriend Ken (Patrick Warburton) wordt panisch wanneer hij Benson opmerkt en wil hem platslaan, maar bloemiste Bloome steekt daar een stokje voor en zet hem ongedeerd buiten. Benson vindt dat hij haar hiervoor moet bedanken en zoekt Bloome weer op wanneer ze alleen is. Door haar te bedanken, vertrouwt hij haar het geheim toe dat bijen kunnen praten. De twee ontwikkelen vervolgens een warme vriendschap.
+
+            Wanneer Benson met Bloome door de supermarkt loopt, bemerkt hij dat de mensheid hún honing met vele potten tegelijk opslaan en verkopen alsof ze zelf iets met de productie te maken hebben. Bij een productiebedrijf blijkt deze industrie immens veel groter dan hij kon vermoeden. Benson vindt dit zo oneerlijk dat hij besluit met behulp van Bloome de mensheid aan te klagen voor het stelen van de honing van de bijen.
+
+            Benson wint de rechtszaak, waarop de bijen alle honing terugkrijgen. Doordat de bijen nu honing in overvloed hebben, leggen ze hun werkzaamheden stil. Als gevolg daarvan vindt er alleen ook geen bestuiving meer plaats, waardoor langzaam maar zeker alle bloemen uitsterven. Met nog maar een gering aantal bloemen in leven, bestemd voor een bloemencorso, overtuigt Benson zijn soortgenoten ervan dat ze actie moeten ondernemen voor alle bloemen uitgestorven zijn, waarop zij onherroepelijk zullen volgen. 
+        </span>
+
+    </main>
     <div id="footer">
         <div class="left">
             <img src="../img/logo.png" alt="logo">
@@ -56,6 +53,5 @@
             <li onclick="window.location.href = 'https://github.com/V1llans'">Pauline Walhout</li>
         </div>
     </div>
-    <script src="beemovie.js"></script>
 </body>
 </html>
