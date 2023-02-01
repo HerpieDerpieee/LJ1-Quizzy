@@ -36,6 +36,8 @@ body {
     height: 65vh !important;
     max-width: 80%;
     background: var(--container_background);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 70vh;
     display: flex;
     flex-direction: column;

@@ -3,7 +3,8 @@ body{
     background: linear-gradient(to top, #7118c38d, #4a0a868d,#3f0d6f8d, #3a066c8d ),url("img/homeBg.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
+    background-size:cover;
 }
 /*------------------*/
 

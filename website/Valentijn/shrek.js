@@ -273,7 +273,6 @@ function beginQuiz() {
         document.getElementById("txtInput").addEventListener('change', function() {
             console.log("changed");
             if (txtInput.value.toLowerCase().includes(questions[currentQuestion].answers[0])){
-                console.log("Kaas")
                 openTrue = true;
             }
             else {
