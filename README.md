@@ -5,4 +5,4 @@ This is a School project of Lucas van Briemen, Valentijn Kijkuit, en Pauline Wal
 
 Lucas mag geen PHP gebruiken >:)
 
-
+![alt text](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e16b757a-7108-4809-9db2-b545d255356d/deosi8i-e6ed953c-329a-4c02-a751-34ca3d37b2ba.png/v1/fit/w_300,h_557,strp/sus_by_rjprincenz_deosi8i-300w.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTU3IiwicGF0aCI6IlwvZlwvZTE2Yjc1N2EtNzEwOC00ODA5LTlkYjItYjU0NWQyNTUzNTZkXC9kZW9zaThpLWU2ZWQ5NTNjLTMyOWEtNGMwMi1hNzUxLTM0Y2EzZDM3YjJiYS5wbmciLCJ3aWR0aCI6Ijw9NTI5In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.svp981sBbNbGcPT8b29o0p9SvB5igNFNAr-19F4rX1w)
