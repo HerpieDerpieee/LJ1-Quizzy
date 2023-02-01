@@ -34,7 +34,7 @@ body {
 
 .container {
     width: 90vw;
-    margin-left: 7.5vw;
+    height: 65vh !important;
     max-width: 80%;
     background: var(--container_background);
     height: 70vh;
@@ -46,7 +46,7 @@ body {
     text-align: center;
     border: 10px solid var(--border_color);
     border-radius: 5em;
-    margin-top: 16vh;
+    margin-top: 11.75vh;
 }
 /**/
 .score {
