@@ -125,3 +125,29 @@ body {
 #txtInput {
     color: black;
 }
+
+#story {
+    width: 90vw;
+    height: 60vh !important;
+    max-width: 80%;
+    background: var(--container_background);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+    border: 10px solid var(--border_color);
+    border-radius: 5em;
+    margin-top: 11.75vh;
+    margin-top:15vh;
+    color: var(--title_color);
+    font-size: 2.6vh;
+    text-align: center;
+    width: 80vw;
+    background: var(--container_background);
+    margin-left: 7.5vw;
+    border: 1vh solid var(--border_color);
+    border-radius: 10%;
+}
