@@ -1,5 +1,8 @@
 # Quizzy
-no php allowd :( *cry noise* uwu
-nice readme dont you think so? :D
-a nice read me file should be here :)
+
+This is a School project of Lucas van Briemen, Valentijn Kijkuit, en Pauline Walhout.
+
+
+Lucas mag geen PHP gebruiken >:)
+
 
