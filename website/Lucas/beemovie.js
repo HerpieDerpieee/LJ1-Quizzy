@@ -126,7 +126,7 @@ let questions = [
         open : false,
         question: "wat eten bijen?",
         answers: [
-            {option: "andere bijen", answer: false},
+            {option: "andere bijen", answer: true},
             {option: "Honing", answer: false},
             {option: "Bloemen", answer: true},
             {option: "vlees", answer: false},
