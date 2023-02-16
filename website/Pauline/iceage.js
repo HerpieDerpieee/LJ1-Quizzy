@@ -25,138 +25,140 @@ let score = 0;
 
 let questions = [
    {
-        question: "Placeholder Question",
+        question: "Hoeveel Ice Age films zijn er in totaal",
         open : false,
         answers: [
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false}
+            {option: "3", answer: false},
+            {option: "4", answer: false},
+            {option: "5", answer: true},
+            {option: "7", answer: false}
             ]
     },
     {
-        question: "Placeholder Question",
+        question: "welke Ice Age film bevat mensen",
         open : false,
         answers: [
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false}
+            {option: "Ice Age ", answer: true},
+            {option: "Ice Age the meltdown", answer: false},
+            {option: "Ice Age continental drift", answer: false},
+            {option: "Ice Age collision course", answer: false}
         ]
     },
     {
-        question: "Placeholder Question",
+        question: "De grote mammoet word in alle films 'Manny' genoemd maar wat is zijn echte naam?",
         open : false,
         answers: [
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false}
+            {option: "Manfred", answer: true},
+            {option: "Manuel", answer: false},
+            {option: "Manchester", answer: false},
+            {option: "Marinus", answer: false}
         ]
     },
     {
-        question: "Placeholder Question",
+        question: "Wat doet de eekhoorn in elke film?",
         open : false,
         answers: [
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false}
+            {option: "Zwemmen", answer: false},
+            {option: "De wereld ontdekken", answer: false},
+            {option: "Achter een eikel aanrennen", answer: true},
+            {option: "niks. hij slaapt alleen maar", answer: false}
         ]
     },
     {
-        question: "Placeholder Question",
+        question: "Hoe heet Manny en Ellie's dochter?",
         open : false,
         answers: [
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false}
+            {option: "de dochter heeft geen naam", answer: false},
+            {option: "Emma", answer: false},
+            {option: "Peaches", answer: true},
+            {option: "Johanna", answer: false}
         ]
     },
     {
-        question: "Placeholder Question",
+        question: "Hoe heet de luiaard in de films",
         open : false,
         answers: [
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false}
+            {option: "Margot", answer: false},
+            {option: "Sid", answer: true},
+            {option: "Henk", answer: false},
+            {option: "Opa Kurt", answer: false}
         ]
     },
     {
-        question: "Placeholder Question",
+        question: "Wie zei 'ik eet geen junkfood'?",
         open : false,
         answers: [
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false}
+            {option: "Manny", answer: false},
+            {option: "Die ene eekhoorn", answer: false},
+            {option: "Peaches", answer: false},
+            {option: "Diego", answer: true}
         ]
     },
     {
-        question: "Placeholder Question",
+        question: "Wie voorspelde de overstroming?",
         open : false,
         answers: [
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false}
+            {option: "Fast Tony", answer: true},
+            {option: "Peaches", answer: false},
+            {option: "Henk", answer: false},
+            {option: "Opa Kurt", answer: false}
         ]
     },
     {
-        question: "Placeholder Question",
+        question: "Wat is Sids bijnaam die hij aan zichzelf heeft gegeven?",
         open : false,
         answers: [
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false}
+            {option: "gewoon sid", answer: false},
+            {option: "Sid the lord of the flame", answer: true},
+            {option: "gore luiwammes", answer: false},
+            {option: "sid the explorer", answer: false}
         ]
     },
     {
-        question: "Placeholder Question",
+        question: "welke angst van Diego zei Sid dat hij wist?",
         open : false,
         answers: [
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false},
-            {option: "Placeholder Answer", answer: false}
+            {option: "Vissen", answer: false},
+            {option: "Hoogtes", answer: false},
+            {option: "Vuur", answer: false},
+            {option: "Water", answer: true}
         ]
     },
     {
         open : true,
-        question: "Placeholder Question",
+        question: "Welk dier dacht Ellie dat ze was?",
         answers: [
-            "Placeholder Answer",
+            "Buidelrat",
+            "een buidelrat"
         ]
     },
     {
         open : true,
-        question: "Placeholder Question",
+        question: "Welke Ice Age film is het leukst",
+        answer : true
+    },
+    {
+        open : true,
+        question: "Wat wouden de andere luiaarden doen met Sid?",
         answers: [
-            "Placeholder Answer",
+            "hem opofferen",
+            "opofferen"
         ]
     },
     {
         open : true,
-        question: "Placeholder Question",
+        question: "Wat is de naam van de animatie studio die Ice Age heeft gemaakt?",
         answers: [
-            "Placeholder Answer",
+            "Blue Sky",
         ]
     },
     {
         open : true,
-        question: "Placeholder Question",
+        question: "Wat zei Manny dat het meest aantrekkelijke was van Ellie?",
         answers: [
-            "Placeholder Answer",
-        ]
-    },
-    {
-        open : true,
-        question: "Placeholder Question",
-        answers: [
-            "Placeholder Answer",
+            "Haar billen",
+            "Haar reet",
+            "Haar ass"
         ]
     },
 ]
